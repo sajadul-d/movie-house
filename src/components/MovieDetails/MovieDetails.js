@@ -18,11 +18,11 @@ const MovieDetails = () => {
    
      
     return (
-        <div className=" bg-1 container my-5">
+        <div className=" bg-1 container my-6">
             <div className="row bg-2">
                 
-                <div className="col-md-6">
-                    <h2 className="details">{movie.title}</h2>
+                <div className="col-md-6 movie-details">
+                    <h2 className="heading">{movie.title}</h2>
                     <h4 className="details"><FaDirections/> Release Date : {movie.release_date}</h4>
                     <h4 className="details"><FaFlag/> Language : {movie.original_language}</h4>
                     <h4 className="details"> <FaBold/> Budget : {movie.budget} $</h4> 
