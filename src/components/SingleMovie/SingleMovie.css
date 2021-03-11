@@ -1,0 +1,17 @@
+ .background{
+     background-size: auto;
+     background-color:whitesmoke;
+     max-width: 1300px;
+     border-radius: 5px;
+      
+      
+ }
+
+ .movie-name{
+     color:hotpink;
+     font-weight: 700px;
+     font-size: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+      

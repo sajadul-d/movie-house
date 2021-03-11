@@ -1,0 +1,47 @@
+.bg-1{
+    background-color:white;
+    border: 1px white solid;
+    width: 1500px;
+    height: 750px;
+    margin-bottom: 50px;
+}
+ .bg-2{
+
+    background-color: blue;
+    border: 1px solid blue;
+    width: 1145px;
+    height: 615px;
+    padding: 10px;
+    padding-top: 20px;
+    
+    border-radius: 10px;
+    
+     
+}
+
+
+.img{
+    width: 450px;
+    height: 340px;
+}
+.details{
+    color:white;
+    font-weight: 700px;
+    padding: 5px;
+     
+    
+}
+.overview{
+    margin-top: 20px;
+    padding-top: 10px;
+    color:black;
+}
+
+.social{
+    text-align: center;
+}
+
+.s-1{
+    padding: 10px;
+    
+}
