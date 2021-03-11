@@ -15,7 +15,7 @@ const MovieDetails = () => {
         .then(res => res.json())
         .then(data => setMovie(data))
     },[])
-    console.log(movie);
+   
     const {title} = movie;
     return (
         <div className=" bg-1 container my-5">
