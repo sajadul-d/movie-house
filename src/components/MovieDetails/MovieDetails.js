@@ -16,7 +16,7 @@ const MovieDetails = () => {
         .then(data => setMovie(data))
     },[])
    
-    const {title} = movie;
+     
     return (
         <div className=" bg-1 container my-5">
             <div className="row bg-2">
@@ -26,8 +26,9 @@ const MovieDetails = () => {
                     <h4 className="details"><FaDirections/> Release Date : {movie.release_date}</h4>
                     <h4 className="details"><FaFlag/> Language : {movie.original_language}</h4>
                     <h4 className="details"> <FaBold/> Budget : {movie.budget} $</h4> 
+                    
                     <h4 className="details"> <FaUserPlus/> Popularity : {movie.popularity} M</h4>
-    
+                    
                 </div>
                 <div className="col-md-6">
                     

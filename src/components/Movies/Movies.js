@@ -10,7 +10,7 @@ const Movies = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setMovies(data.results))
-    },[])
+    })
     return (
         <div className="container mt-5">
             <div className="row">
