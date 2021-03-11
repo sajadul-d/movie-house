@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowCircleRight } from 'react-icons/fa';
-import { Container, Card, Button } from 'react-bootstrap';
+import {Card, Button } from 'react-bootstrap';
 import './SingleMovie.css'
 import { Link } from 'react-router-dom';
 

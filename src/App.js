@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header/Header';
 import Movies from './components/Movies/Movies';
@@ -6,7 +6,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import NotFound from './components/NotFound/NotFound';
 import MovieDetails from './components/MovieDetails/MovieDetails';
